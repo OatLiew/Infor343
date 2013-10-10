@@ -1,0 +1,148 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body {
+    background-image: url(../img/pizza1.jpg),  url(../img/pizza-order.jpg), url(../img/pizza-oven.jpg),
+    url(../img/1200px/seamlesstexture25_1200.jpg);
+
+    /*background-repeat: repeat;*/
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 18px;
+    padding: 17px;
+    background-size: 700px 700px, 500px, 500px 400px, 1400px 3000px;
+    background-position:left top, left center, left bottom, left top;
+    background-repeat: no-repeat;
+    /*background: fixed;*/
+}
+
+p{
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+h2{
+    color: #000066;
+    font-weight:bold;
+    font-size: 24px;   
+}
+
+.menu{
+    margin: 0;
+    width: 100%;
+    background: #111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 130%;
+    /*text-transform: uppercase;*/
+}
+
+.crop {
+    width: 220px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 75px;
+    box-shadow:  2px 2px 6px #555;
+}
+
+
+.content-box {
+    background-image: url(../img/1200px/seamlesstexture23_1200.jpg);
+    width: 62%;
+    background-color: #FFF;
+    margin-top: 30px;
+    box-shadow:  2px 2px 6px #555;
+    padding: 20px;
+}
+
+.moto {
+	font-family: 'Boogaloo', sans-serif;
+    font-size: 36px;
+    color: #111;
+}
+
+.pull-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.pull-right {
+    float: right;
+    margin-right: 20px;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+
+.footer{
+    border-top: thin double #C0C0C0;
+    font-size: 80%;
+    font-style:italic;
+    padding: 10px;
+}
+
+h1{
+    font-size: 120%;
+}
+
+nav ul {
+    background-color:  #111;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    color:  #c69453;
+   
+
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFF;
+}
+    
+#navigation {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    height: 35px;
+    padding: 40px;
+
+}
+
+#navigation:hover{
+    border-color: #FFF;
+    border-radius: 80px;
+}
+
+.menuHead{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.menuDetail{
+
+    padding-left: 30px;
+    margin-bottom: 1em;
+}
+
+strong{
+    font-weight:bold;
+    font-size: 110%
+}
